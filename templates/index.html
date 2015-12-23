@@ -8,9 +8,9 @@
                 <h1 class="content-subhead">
                     {% block pagetitle %}
                         {% if not articles_page.has_previous() %}
-                            Latest posts
+                            Dernier articles
                         {% else %}
-                            Posts
+                            Articles
                         {% endif %}
                     {% endblock pagetitle %}
                     {% if articles_page.has_previous() %}
@@ -34,7 +34,7 @@
                             </p>
                         {% else %}
                             <p class="post-meta">
-                                in <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a> &middot; {{ article.locale_date }}
+                                dans <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a> &middot; {{ article.locale_date }}
                             </p>
                         {% endif %}
                         </header>

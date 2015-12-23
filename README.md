@@ -31,3 +31,6 @@ Theme is responsive.
 * [FitVids](https://github.com/davatron5000/FitVids.js) jQuery plugin for fluid width video embeds.
 
 
+## Little Change from original
+* `Little french translate`
+* `Change sidebar` -  size to 17% instead of 25%
